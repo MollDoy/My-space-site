@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js"></script>
+  <title>Мой космический сайт</title>
+</head>
+<body>
+  <header>
+    <h1>Наша солнечная система</h1>
+  </header>
+
+  <main>
+    <div class="planet-container">
+      <button onclick="showCard('mercury')"><span>Меркурий</span></button>
+      <button onclick="showCard('venus')"><span>Венера</span></button>
+      <button onclick="showCard('earth')"><span>Земля</span></button>
+      <button onclick="showCard('mars')"><span>Марс</span></button>
+      <button onclick="showCard('jupiter')"><span>Юпитер</span></button>
+      <button onclick="showCard('saturn')"><span>Сатурн</span></button>
+      <button onclick="showCard('uranus')"><span>Уран</span></button>
+      <button onclick="showCard('neptune')"><span>Нептун</span></button>
+    </div>
+
+    <div class="card-container">
+      <div id="mercury-card" class="card">
+        <h2>Меркурий</h2>
+        <img src="mercury.jpg" alt="Меркурий">
+        <p>Меркурий - самая маленькая планета в нашей Солнечной системе. Эта планета не имеет атмосферы и подвержена экстремальным температурам от -173°C до 427°C.</p>
+      </div>
+      
+      <div id="venus-card" class="card">
+        <h2>Венера</h2>
+        <img src="venus.jpg" alt="Венера">
+        <p>Венера - вторая планета от Солнца и является "сестрой" Земли. Эта планета имеет очень плотную атмосферу, состоящую главным образом из углекислого газа, а также облака серной кислоты.</p>
+      </div>
+      
+      <div id="earth-card" class="card">
+        <h2>Земля</h2>
+        <img src="earth.jpg" alt="Земля">
+        <p>Земля - наша родная планета, единственное известное небесное тело, где существует жизнь. Она обладает уникальными условиями, включая существование воды в жидкой форме, атмосферу и подходящую для жизни температуру.</p>
+      </div>
+      
+      <div id="mars-card" class="card">
+        <h2>Марс</h2>
+        <img src="mars.jpg" alt="Марс">
+        <p>Марс часто называют "Красной планетой" из-за своего красноватого цвета. Поверхность Марса покрыта пылью и песком, а атмосфера содержит разреженный углекислый газ.</p>
+      </div>
+      
+      <div id="jupiter-card" class="card">
+        <h2>Юпитер</h2>
+        <img src="jupiter.jpg" alt="Юпитер">
+        <p>Юпитер - самая большая планета в Солнечной системе, состоящая в основном из газа. У нее очень мощное магнитное поле и множество спутников, включая большие ледяные галактические спутники.</p>
+      </div>
+      
+      <div id="saturn-card" class="card">
+        <h2>Сатурн</h2>
+        <img src="saturn.jpg" alt="Сатурн">
+        <p>Сатурн известен своими кольцами, состоящими в основном из льда и камней. Эта планета также состоит в основном из газа и обладает множеством спутников, включая самый большой спутник в Солнечной системе - Титан.</p>
+      </div>
+      
+      <div id="uranus-card" class="card">
+        <h2>Уран</h2>
+        <img src="uranus.jpg" alt="Уран">
+        <p>Уран - одна из ледяных гигантских планет в Солнечной системе. Она имеет весьма необычное положение вращения, когда она вращается на боку. У Урана также есть кольца, но они гораздо тоньше и менее заметны, чем у Сатурна.</p>
+      </div>
+      
+      <div id="neptune-card" class="card">
+        <h2>Нептун</h2>
+        <img src="neptune.jpg" alt="Нептун">
+        <p>Нептун - самая дальняя планета от Солнца и восьмая по размеру в Солнечной системе. Поверхность этой планеты состоит главным образом из газового состава, а также высоких атмосферных давлений и низких температур.</p>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
